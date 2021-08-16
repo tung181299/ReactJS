@@ -1,0 +1,62 @@
+
+.bgCover{ 
+    height: 700px;
+    background-size: cover;
+
+}
+.player, .computer{
+    background-size: contain;
+    height: 20%;
+    width: 20%;
+    top: 20%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.player{
+    left: 5%;
+}
+.computer{
+    right: 5%;
+}
+.chooseOption{
+    background-color: #fff;
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    top: -95%;
+    border: 5px solid rgb(17, 185, 17);
+}
+.chooseOption__style{
+    left: 20%;
+    bottom: -30%;
+    border-left: 10px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 30px solid rgb(17, 185, 17);
+    position: absolute;
+}
+.computer .chooseOption__style{
+    left: 50%;
+}
+.playGame h1{
+    color: orange;
+    padding-bottom: 3%;
+}
+.playGame p{
+    font-size: 2rem;
+    color: rgb(9, 177, 9);
+    font-weight: 1000;
+}
+.chooseRps{
+    width: 50%;
+    height: 50%;
+}
+.btnPlayer{
+    transform: translate(-50%,250%);
+    
+}
+.btnPlayer img{
+    width: 50px;
+}
+.btnPlayer:focus{
+    background-color: orange;
+}
